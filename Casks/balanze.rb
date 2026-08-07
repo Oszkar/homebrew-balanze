@@ -1,6 +1,6 @@
 cask "balanze" do
-  version "0.5.1"
-  sha256 "db5419594a95fd2b3847c8885fea5fd957439cd771f2ef7a15b68ca28eb846c5"
+  version "0.5.2"
+  sha256 "71503a419244e565047e607a4384abdff279e45216e0cbbfb35a3a5cfcbc2998"
 
   url "https://github.com/Oszkar/balanze/releases/download/v#{version}/Balanze_#{version}_aarch64.dmg"
   name "Balanze"

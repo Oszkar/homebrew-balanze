@@ -1,20 +1,20 @@
 class BalanzeCli < Formula
   desc "Consolidated personal AI usage tracking for Claude and Codex"
   homepage "https://github.com/Oszkar/balanze"
-  version "0.5.1"
+  version "0.5.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Oszkar/balanze/releases/download/v0.5.1/balanze-cli-v0.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "afb419954023422c41c553c9b68e12c03da5a63536b08915bc50c3b7db756e52"
+      url "https://github.com/Oszkar/balanze/releases/download/v0.5.2/balanze-cli-v0.5.2-aarch64-apple-darwin.tar.gz"
+      sha256 "541fa9109015a55998d12fe021c49355e2cb584a6bc65421c0be07db45f10ea9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Oszkar/balanze/releases/download/v0.5.1/balanze-cli-v0.5.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d2075af2ede7eb32cdf10b0e19ea444eb18283384a4d261ce7308941ff8feae5"
+      url "https://github.com/Oszkar/balanze/releases/download/v0.5.2/balanze-cli-v0.5.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1eb2466834f5d5e3d34548dca67a86f131838e61c93c0ba838db0f7f8d835f34"
     end
   end
 
