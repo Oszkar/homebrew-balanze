@@ -7,8 +7,8 @@ cask "balanze" do
   desc "Tray app for consolidated personal AI usage tracking"
   homepage "https://github.com/Oszkar/balanze"
 
-  depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
+  depends_on macos: :sequoia
 
   app "Balanze.app"
 
